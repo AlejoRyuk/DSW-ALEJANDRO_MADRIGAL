@@ -1,0 +1,22 @@
+header{
+    background: #251D3A;
+}
+nav{
+    background: #2A2550;
+}
+section{
+    background: #E04D01;
+    grid-column: 1/4;    
+}
+aside{
+    background: #FF7700;
+    grid-column: 4/5 ;
+}
+footer{
+    background: #251D3A;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
